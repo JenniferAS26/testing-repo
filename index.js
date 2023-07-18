@@ -135,7 +135,7 @@ const detailSection = async () => {
               <p class="cart-modal__product">${data.name}..</p>
               <p class="cart-modal__price">$${data.price}.00 x${lastValue} <span>$${lastValue * data.price}.00</span></p>
             </div>
-            <img class="cart-modal__delete" src="./assets/images/icon-delete.svg" alt="delete">
+            <img class="cart-modal__delete" src="./icon-delete.svg" alt="delete">
           </div>
           <button class="cart-modal__checkout">Checkout</button>
         `;
@@ -178,7 +178,7 @@ const detailSection = async () => {
     cartNotification.style.display = 'block';
     swal({
       title: "Se han añadido con éxito los productos al carrito",
-      icon: "./check.png",
+      icon: "success",
       button: "Continuar",
       customClass: {
         button: 'custom-button',
