@@ -616,7 +616,7 @@
   height: 160px;
   color: #ffffff;
   padding: 20px;
-  background-image: url("../assets/images/bg-card-front.png");
+  background-image: url("./bg-card-front.png");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -671,7 +671,7 @@
   height: 160px;
   color: #ffffff;
   padding: 20px;
-  background-image: url("../assets/images/bg-card-back.png");
+  background-image: url("./bg-card-back.png");
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
