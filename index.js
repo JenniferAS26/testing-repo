@@ -178,7 +178,7 @@ const detailSection = async () => {
     cartNotification.style.display = 'block';
     swal({
       title: "Se han añadido con éxito los productos al carrito",
-      icon: "./assets/icons/check.png",
+      icon: "./check.png",
       button: "Continuar",
       customClass: {
         button: 'custom-button',
