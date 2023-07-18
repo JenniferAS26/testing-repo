@@ -20,7 +20,7 @@ const homeSection = async () => {
     shopItems.className = 'shop__items grid';
 
     const link = document.createElement('a');
-    link.href = `#/${product.id}`;
+    link.href = `productDetail.html/${product.id}`;
     link.className = 'shop__link button-details';
 
     const shopContent = document.createElement('div');
@@ -57,7 +57,7 @@ const homeSection = async () => {
   homeContainer.appendChild(shopContainer);
 
   const redirectToProductDetails = (productId) => {
-    const url = `index.html?id=${productId}`;
+    const url = `productDetail.html?id=${productId}`;
     window.location.href = url;
   };
 
